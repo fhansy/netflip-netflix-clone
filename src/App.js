@@ -6,11 +6,11 @@ import Banner from './Banner';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* Nav */}
       <Banner/>
       <Row 
-        title="NETFLIP Weekly"
+        title="NETFLIP Originals"
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />
